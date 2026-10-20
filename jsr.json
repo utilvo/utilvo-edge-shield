@@ -1,0 +1,6 @@
+{
+  "name": "@utilvo/edge-shield",
+  "version": "1.1.1",
+  "license": "MIT",
+  "exports": "./mod.ts"
+}

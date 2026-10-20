@@ -1,0 +1,12 @@
+[package]
+name = "utilvo-edge-shield"
+version = "1.1.0"
+edition = "2021"
+description = "Open-source server firewall generator, CIDR/ASN threat intelligence feed (AS132203, AS45102, AS136907), and GA4 headless bot detector."
+license = "MIT"
+homepage = "https://utilvo.com/edge-shield"
+repository = "https://github.com/utilvo/utilvo-edge-shield"
+documentation = "https://docs.rs/utilvo-edge-shield"
+keywords = ["nginx", "waf", "security", "firewall", "cidr"]
+categories = ["network-programming", "web-programming"]
+include = ["src/**/*", "Cargo.toml", "README.md", "LICENSE"]

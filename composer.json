@@ -1,0 +1,32 @@
+{
+  "name": "utilvo/edge-shield",
+  "version": "1.1.0",
+  "description": "Open-source server firewall generator, CIDR/ASN threat intelligence feed (AS132203, AS45102, AS136907), and GA4 headless bot detector.",
+  "type": "library",
+  "keywords": [
+    "nginx",
+    "waf",
+    "bot-protection",
+    "cloudflare",
+    "cidr",
+    "asn",
+    "ga4",
+    "security"
+  ],
+  "homepage": "https://utilvo.com/edge-shield",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Utilvo",
+      "homepage": "https://utilvo.com/edge-shield"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Utilvo\\EdgeShield\\": "src/"
+    }
+  }
+}

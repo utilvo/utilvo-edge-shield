@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utilvo-edge-shield"
+version = "1.1.0"
+description = "Open-source server firewall generator, CIDR/ASN threat intelligence feed (AS132203, AS45102, AS136907), Safe-Harbor bot classifier, and GA4 headless bot detector."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Utilvo", email = "utilvo.com@gmail.com" }]
+requires-python = ">=3.8"
+keywords = ["nginx", "waf", "bot-protection", "cloudflare", "cidr", "asn", "ga4", "security", "firewall"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+    "Topic :: Security",
+]
+
+[project.urls]
+Homepage = "https://utilvo.com/edge-shield"
+Documentation = "https://utilvo.com/edge-shield"
+"Live Threat API" = "https://utilvo.com/api/edge-shield/threats"
+Repository = "https://github.com/utilvo/utilvo-edge-shield"

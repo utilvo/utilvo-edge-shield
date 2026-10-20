@@ -1,0 +1,33 @@
+{
+  "name": "utilvo-edge-shield",
+  "version": "1.1.0",
+  "description": "Server firewall rule generator, CIDR/ASN threat intelligence feed (AS132203, AS45102, AS136907), and GA4 headless bot detector.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "nginx",
+    "waf",
+    "bot-protection",
+    "cloudflare",
+    "cidr",
+    "asn",
+    "ga4",
+    "security",
+    "firewall"
+  ],
+  "homepage": "https://utilvo.com/edge-shield",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utilvo/utilvo-edge-shield.git"
+  },
+  "author": "Utilvo",
+  "license": "MIT",
+  "files": [
+    "src/index.js",
+    "src/index.d.ts",
+    "mod.ts",
+    "README.md",
+    "LICENSE"
+  ]
+}
